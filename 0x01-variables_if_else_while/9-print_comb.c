@@ -1,23 +1,23 @@
 #include <stdio.h>
-
 /**
- * main - main fuunction
- *
- * Return: always 0
- */
-
+* main - main function
+*
+* Return: Always 0
+*/
 int main(void)
 {
-	int i;
+		int i;
 
-	for (i = 0 ; i < 10; i++)
-	{
-		if (i == 9)
-			putchar(i + '0');
-		else
-			putchar(i + '0');
-			putchar(',');
-			putchar(' ');
-	}
+		for (i = 0; i <= 9; i++)
+		{
+		putchar(i + '0');
+		if (i < 9)
+		{
+		putchar(',');
+		putchar(' ');
+		}
+		}
+		putchar('\n');
+
 	return (0);
 }
