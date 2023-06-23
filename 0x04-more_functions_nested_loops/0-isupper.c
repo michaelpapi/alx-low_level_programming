@@ -4,12 +4,12 @@
  *
  * @c: what inputs the character
  *
- * Return (1) for true and (0) if false
+ * Return: (1) for true and (0) if false
  *
  */
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= "Z")
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
