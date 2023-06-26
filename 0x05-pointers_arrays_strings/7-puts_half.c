@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *puts_haf - main code
+ *puts_half - main code
  *@str: value to be evaluate.
  *Return: void
  */
