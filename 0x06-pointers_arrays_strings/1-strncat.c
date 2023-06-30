@@ -6,7 +6,7 @@
  * @src: second string
  * @n: number of characters to be joined
  *
- * Return: void
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
